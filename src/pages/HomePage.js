@@ -2,7 +2,7 @@ import React from 'react';
 import LandingPic from '../imgs/landingPic.png'
 import { ProductSection } from '../components/ProductSection';
 import { Banner } from '../components/Banner';
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const FeaturedProduct = [
     {
@@ -59,7 +59,7 @@ export const HomePage = () => {
                     <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                         <img
                             src={product.image} // Replace with your image URL
-                            alt="Banner Image 1"
+                            alt="Banner 1"
                             className="w-full h-64 object-cover"
                         />
                         <div className="p-6">
